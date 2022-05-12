@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, render_template
 import sqlite3
 
 app = Flask(__name__)
@@ -17,6 +17,16 @@ def movies():
     rows = cursor.execute("select id, name, year from movies").fetchall()
     print(rows)
 
+    movies = []
+    
+    for row in rows:
+        id = row[0]
+        name = row[1]
+        year = row[2]
+        movies.append(f"{id} movie {name} {year}")
+    
+    print(movies)
 
 
-    return "<p>This is a special psychological picture</p>"
+
+    return render_template('index.html', items=movies)
