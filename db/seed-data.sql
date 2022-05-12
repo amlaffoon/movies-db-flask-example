@@ -1,0 +1,10 @@
+insert into movies (Name, year) values ("Lexi's Movie", 2007);
+insert into movies (Name, year) values ("Cleaver", 2007);
+insert into movies (Name, year) values ("Bates Motel", 2013);
+insert into movies (Name, year) values ("Source Code", 2011);
+insert into movies (Name, year) values ("Never Forever", 2008);
+insert into movies (Name, year) values ("Rose Hill", 1999);
+insert into movies (Name, year) values ("Godzilla", 1965);
+insert into movies (Name, year) values ("Scarface", 1985);
+insert into movies (Name, year) values ("Halloween", 1987);
+insert into movies (Name, year) values ("Stardust", 2006);

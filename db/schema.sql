@@ -1,0 +1,6 @@
+CREATE TABLE "Movies" (
+	"ID"	INTEGER,
+	"Name"	TEXT NOT NULL,
+	"Year"	INTEGER NOT NULL,
+	PRIMARY KEY("ID")
+);
