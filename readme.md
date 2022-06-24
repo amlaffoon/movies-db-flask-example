@@ -1,0 +1,1 @@
+Just a quick scratchpad project to learn python/flask with a sql database
